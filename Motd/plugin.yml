@@ -1,0 +1,5 @@
+main: com.LeoGamerG0D.motd.Main
+name: Motd
+version: 1.0
+author: LeoGamerG0D - GOD OF TRAPS MUSHMC
+depend: [ProtocolLib]
