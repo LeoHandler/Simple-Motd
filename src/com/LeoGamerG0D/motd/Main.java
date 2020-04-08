@@ -50,9 +50,9 @@ public class Main extends JavaPlugin implements Listener{
 	@EventHandler
 	public void onPing(ServerListPingEvent e){
 		if (Bukkit.getServer().hasWhitelist()){
-			e.setMotd("§6§lSmart§f§lMC §7(1.8.*)\n§cServidor em manutenção!");
+			e.setMotd("§6§lMania§f§lMC §7(1.8.*)\n§cServidor em manutenção!");
 		} else {
-			e.setMotd("§6§lSmart§f§lMC §7(1.8.*)\n§fwww.redemania.com");
+			e.setMotd("§6§lMania§f§lMC §7(1.8.*)\n§fwww.redemania.com");
 		}
 	}
 }
